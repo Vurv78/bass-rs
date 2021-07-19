@@ -24,6 +24,7 @@ fn main() {
 		.write_to_file(out_dir.join("bindings.rs"))
 		.expect("Couldn't write bindings!");
 
+	#[cfg(not(feature = "no-link"))]
 	link(&out_dir);
 }
 

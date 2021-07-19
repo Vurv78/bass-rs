@@ -14,4 +14,6 @@ bindgen = "0.58.1"
 
 [features]
 default = []
+
 garrysmod = []
+no-link = [] # Don't link to bass.dll, just generate bindings.
