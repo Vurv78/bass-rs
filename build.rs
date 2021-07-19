@@ -15,7 +15,7 @@ fn main() {
 	println!("cargo:rerun-if-changed=bass.h");
 
 	let bindings = bindgen::Builder::default()
-		.header("bass.h")
+		.header("bass/bass.h")
 		.allowlist_function("BASS.*")
 		.allowlist_type("BASS.*")
 		.allowlist_var("BASS.*")
