@@ -1,4 +1,4 @@
-# ``bass-rs`` [![Release Shield](https://img.shields.io/github/v/release/Vurv78/bass-rs)](https://github.com/Vurv78/bass-rs/releases/latest) [![License](https://img.shields.io/github/license/Vurv78/bass-rs?color=red)](https://opensource.org/licenses/MIT)
+# ``bass-rs`` [![Release Shield](https://img.shields.io/github/v/release/Vurv78/bass-rs)](https://github.com/Vurv78/bass-rs/releases/latest) [![License](https://img.shields.io/github/license/Vurv78/bass-rs?color=red)](https://opensource.org/licenses/MIT) ![CI](https://github.com/Vurv78/bass-rs/actions/workflows/doc.yml/badge.svg)
 Bindings to [BASS](https://www.un4seen.com).  
 
 It will generate bindings using [bindgen](https://github.com/rust-lang/rust-bindgen) and then try to find a bass dll file at the ``BASS_DLL_PATH`` environment variable.  
