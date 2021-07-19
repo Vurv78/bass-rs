@@ -31,9 +31,6 @@ jobs:
         - name: Set LIBCLANG_PATH
           run: echo "LIBCLANG_PATH=$((gcm clang).source -replace "clang.exe")" >> $env:GITHUB_ENV
 
-        - name: install dependencies
-          run: ./install-dependencies.sh
-
         - name: Build
           uses: actions-rs/cargo@v1
           with:
