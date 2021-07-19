@@ -12,8 +12,6 @@ fn main() {
 	let out_dir = env::var("OUT_DIR").expect("Couldn't get OUT_DIR");
 	let out_dir = Path::new( &out_dir );
 
-	println!("cargo:rerun-if-changed=bass.h");
-
 	let bindings = bindgen::Builder::default()
 		.header("bass/bass.h")
 		.allowlist_function("BASS.*")
