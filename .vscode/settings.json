@@ -1,0 +1,5 @@
+{
+	// Rust analyzer will give you an error with using env!() with OUT_DIR otherwise.
+	// https://github.com/rust-analyzer/rust-analyzer/issues/1964
+	"rust-analyzer.cargoFeatures.loadOutDirsFromCheck": true
+}
